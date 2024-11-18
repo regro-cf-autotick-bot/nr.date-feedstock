@@ -1,13 +1,13 @@
 {% set name = "nr.date" %}
-{% set version = "1.1.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: "af94e350c9b3a5b45717533a4b513bd8380d662505f6c05e8a02181e56581ea2"
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nr_date-{{ version }}.tar.gz"
+  sha256: "0643aea13bcdc2a8bc56af9d5e6a89ef244c9744a1ef00cdc735902ba7f7d2e6"
 
 build:
   noarch: python
